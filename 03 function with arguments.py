@@ -1,8 +1,10 @@
 def mohan(name, ending):
     print("Good day," + name)
     print(ending)
+    return "ok"
 
 
 
-mohan("mohan", "thank you")
+a=mohan("mohan", "thank you")
+print(a)
 mohan("ankit", "thanks")
